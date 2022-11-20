@@ -1,10 +1,99 @@
-img{
-    border-radius: 80%;
-    max-width: 30%;
-    height: auto;
-    opacity: 79%;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --light-mint: #e7f7f4;
+    --darker-mint: #8febd5;
+    --navy: #2b2741;
+    --black: #000000;
+    --grey: slategrey;
 }
 
 body{
-    background-color: #AAF0D1;
+    background-color: var(--light-mint);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--light-mint);
+    cursor: crosshair;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--grey);
+}
+
+img{  
+    border-radius: 0%;
+    max-width: 80%;
+    height: auto;
+    opacity: 100%;
+    border-style: solid;
+    border-color: var(--darker-mint);
+}
+
+
+.left {
+    
+    float: left;
+    background-color: var(--navy);
+    width: min-content;
+    height: 1200px;
+    padding: 2%;
+
+    border-style: none solid none none;
+    border-width: 20px;
+    border-color: var(--darker-mint);
+}
+
+.left .contact{
+    color: var(--grey);
+}
+
+.right {
+    padding: 30px;
+    float: left;
+    color: var(--navy);
+    background-color: var(--light-mint);
+    width: auto;
+    height: 100%;
+}
+
+h1 {
+	color: var(--darker-mint);
+	margin: 10px 0px 10px 0px;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+h2 {
+	color: var(--darker-mint);
+	margin: 10px 0px 10px 0px;
+	text-transform: uppercase;
+	font-size: 1.4em;
+}
+
+h3 {
+	color: var(--darker-mint);
+	margin: 10px 0px 10px 0px;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+.right h3 {
+	color: var(--black);
+	margin: 10px 0px 10px 0px;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+.right span.small {
+    font-size: 0.9em;
+    color: var(--grey);
+}
+
+.right span.bold {
+    font-weight: bolder;
+    color: var(--black);
 }
