@@ -52,6 +52,7 @@ img{
 }
 
 .right {
+    padding: 30px;
     float: left;
     color: var(--navy);
     background-color: var(--light-mint);
