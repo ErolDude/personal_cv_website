@@ -9,14 +9,16 @@
 }
 
 body{
-    background-color: var(--light-mint);
+    background-color: whitesmoke;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: var(--light-mint);
     cursor: crosshair;
     margin: 0;
     padding: 0;
     height: 100%;
+
+    
+   
 }
 
 a {
@@ -26,20 +28,31 @@ a {
 
 img{  
     border-radius: 0%;
-    max-width: 80%;
+    max-width: 90%;
+    position: 
     height: auto;
     opacity: 100%;
     border-style: solid;
     border-color: var(--darker-mint);
 }
 
+.resume {
+    border-style: solid solid solid solid;
+    border-color: var(--navy);
+    width: 960px;
+    background: $darkest-blue;
+    color: $white;
+    margin: 20px auto;
+    box-shadow: 10px 10px $black;
+    position: relative;
+    display: flex;
+}
 
-.left {
-    
+.left { 
     float: left;
     background-color: var(--navy);
     width: min-content;
-    height: 1200px;
+    height: auto;
     padding: 2%;
 
     border-style: none solid none none;
@@ -56,7 +69,7 @@ img{
     float: left;
     color: var(--navy);
     background-color: var(--light-mint);
-    width: auto;
+    width: 100%;
     height: 100%;
 }
 
