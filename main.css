@@ -39,7 +39,7 @@ img{
 .resume {
     border-style: solid solid solid solid;
     border-color: var(--navy);
-    width: 960px;
+    width: 900px;
     background: $darkest-blue;
     color: $white;
     margin: 20px auto;
@@ -65,7 +65,7 @@ img{
 }
 
 .right {
-    padding: 30px;
+    padding: 20px 20px 20px 50px;
     float: left;
     color: var(--navy);
     background-color: var(--light-mint);
